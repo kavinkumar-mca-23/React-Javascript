@@ -5,7 +5,7 @@ import Sidebar from './Sidebar';
 import ChatArea from './ChatArea';
 import axios from 'axios';
 
-const BACKEND_URL = 'http://localhost:8000';
+const BACKEND_URL = 'https://react-javascript-backend.onrender.com';
 
 function ChatContainer({ user, socket, onLogout }) {
   const [selectedUser, setSelectedUser] = useState(null);
