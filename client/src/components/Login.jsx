@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const BACKEND_URL = 'http://localhost:8000';
+const BACKEND_URL = 'https://react-javascript-backend.onrender.com';
 
 function Login({ onLogin }) {
   const [formData, setFormData] = useState({
