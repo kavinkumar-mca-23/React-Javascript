@@ -3,7 +3,7 @@ import { Phone, Video, MoreVertical, ArrowLeft, Edit, Trash2, CornerUpRight, Sha
 import MessageInput from './MessageInput';
 import axios from 'axios';
 
-const BACKEND_URL = 'http://localhost:8000';
+const BACKEND_URL = 'https://react-javascript-backend.onrender.com';
 
 function ChatArea({ currentUser, selectedUser, socket }) {
   const [messages, setMessages] = useState([]);
