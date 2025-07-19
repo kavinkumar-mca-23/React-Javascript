@@ -6,7 +6,7 @@ import Register from './components/Register';
 import ChatContainer from './components/ChatContainer';
 import './App.css';
 
-const BACKEND_URL = 'http://localhost:8000';
+const BACKEND_URL = 'https://react-javascript-backend.onrender.com';
 
 function App() {
   const [user, setUser] = useState(null);
